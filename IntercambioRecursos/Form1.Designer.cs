@@ -28,12 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            botonAnadirImagen = new Button();
+            nombreDirectorio = new Label();
+            imagenRecursos = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)imagenRecursos).BeginInit();
+            SuspendLayout();
+            // 
+            // botonAnadirImagen
+            // 
+            botonAnadirImagen.Location = new Point(150, 400);
+            botonAnadirImagen.Name = "botonAnadirImagen";
+            botonAnadirImagen.Size = new Size(150, 34);
+            botonAnadirImagen.TabIndex = 0;
+            botonAnadirImagen.Text = "Añadir imagen";
+            botonAnadirImagen.UseVisualStyleBackColor = true;
+            // 
+            // nombreDirectorio
+            // 
+            nombreDirectorio.AutoSize = true;
+            nombreDirectorio.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            nombreDirectorio.Location = new Point(205, 365);
+            nombreDirectorio.Name = "nombreDirectorio";
+            nombreDirectorio.Size = new Size(52, 21);
+            nombreDirectorio.TabIndex = 1;
+            nombreDirectorio.Text = "label1";
+            // 
+            // imagenRecursos
+            // 
+            imagenRecursos.Location = new Point(10, 10);
+            imagenRecursos.Name = "imagenRecursos";
+            imagenRecursos.Size = new Size(456, 347);
+            imagenRecursos.TabIndex = 2;
+            imagenRecursos.TabStop = false;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(478, 450);
+            Controls.Add(imagenRecursos);
+            Controls.Add(nombreDirectorio);
+            Controls.Add(botonAnadirImagen);
+            Name = "Form1";
+            Text = "Intercambiar recursos";
+            ((System.ComponentModel.ISupportInitialize)imagenRecursos).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button botonAnadirImagen;
+        private Label nombreDirectorio;
+        private PictureBox imagenRecursos;
     }
 }
