@@ -8,10 +8,10 @@
 
 ### Objetivos de esta lección:
 
-Cree una aplicación de formulario de Windows en Visual Studio con C#
-Crear dos formularios en el proyecto.
-Agregue cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios.
-Agregar eventos y funciones al formulario
-Permita que el programa cargue imágenes URL en el cuadro de imagen
-Compruebe si la URL es válida para que se cargue la imagen.
-Si el archivo cargado es un archivo local, cargue la imagen de manera diferente.
+- Cree una aplicación de formulario de Windows en Visual Studio con C#.
+- Crear dos formularios en el proyecto.
+- Agregue cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios.
+- Agregar eventos y funciones al formulario
+- Permita que el programa cargue imágenes URL en el cuadro de imagen
+- Compruebe si la URL es válida para que se cargue la imagen.
+- Si el archivo cargado es un archivo local, cargue la imagen de manera diferente.
