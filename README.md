@@ -7,3 +7,11 @@
 - Puede utilizar este método en cualquier tipo de aplicación que requiera que cree un cuadro de diálogo personalizado que capture cualquier tipo de datos del usuario y luego, con solo hacer clic en un botón, se puede aplicar al formulario principal. Siga este rápido tutorial y, con suerte, podrá encaminarse para crear su propia aplicación de escritorio.
 
 ### Objetivos de esta lección:
+
+Cree una aplicación de formulario de Windows en Visual Studio con C#
+Crear dos formularios en el proyecto.
+Agregue cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios.
+Agregar eventos y funciones al formulario
+Permita que el programa cargue imágenes URL en el cuadro de imagen
+Compruebe si la URL es válida para que se cargue la imagen.
+Si el archivo cargado es un archivo local, cargue la imagen de manera diferente.
