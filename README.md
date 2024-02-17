@@ -1,6 +1,6 @@
 # Data
 
-### Cómo intercambiar datos entre 2 formularios diferentes en Visual Studio:
+### _Cómo intercambiar datos entre 2 formularios diferentes en Visual Studio:_
 
 - _En este tutorial demostraremos cómo cambiar datos entre formularios en Visual Studio. Crearemos un visor de imágenes, que necesita tener la ubicación de la imagen configurada en otro formulario y cuando hagamos clic en enviar, actualizará el valor en el formulario principal._
 - _Con este tutorial está destinado a ayudar a quienes desean crear sus propios cuadros de diálogo personalizados en formato Windows._
