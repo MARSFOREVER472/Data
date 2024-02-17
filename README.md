@@ -14,4 +14,4 @@
 - _Agregar eventos y funciones al formulario._
 - _Permitir que el programa pueda cargar imágenes URL en el cuadro de imágenes._
 - _Comprobar si la URL es válida para que se pueda cargar la imagen._
-- Si el archivo cargado es un archivo local, cargue la imagen de manera diferente.
+- _Si el archivo cargado es un archivo local, cargue la imagen de manera diferente._
