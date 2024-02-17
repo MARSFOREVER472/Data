@@ -10,7 +10,7 @@
 
 - _Crear una aplicación de formulario de Windows en Visual Studio con C#._
 - _Crear dos formularios distintos dentro del proyecto._
-- Agregar algunos cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios.
+- _Agregar algunos cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios._
 - Agregar eventos y funciones al formulario.
 - Permitir que el programa pueda cargar imágenes URL en el cuadro de imágenes.
 - Comprobar si la URL es válida para que se pueda cargar la imagen.
