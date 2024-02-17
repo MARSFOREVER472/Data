@@ -12,6 +12,6 @@
 - _Crear dos formularios distintos dentro del proyecto._
 - _Agregar algunos cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios._
 - _Agregar eventos y funciones al formulario._
-- Permitir que el programa pueda cargar imágenes URL en el cuadro de imágenes.
+- _Permitir que el programa pueda cargar imágenes URL en el cuadro de imágenes._
 - Comprobar si la URL es válida para que se pueda cargar la imagen.
 - Si el archivo cargado es un archivo local, cargue la imagen de manera diferente.
