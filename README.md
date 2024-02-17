@@ -9,7 +9,7 @@
 ### _Objetivos de esta lección:_
 
 - _Crear una aplicación de formulario de Windows en Visual Studio con C#._
-- Crear dos formularios en el proyecto.
+- Crear dos formularios distintos en el proyecto.
 - Agregar algunos cuadros de imágenes, etiquetas, botones y cuadros de texto a los formularios.
 - Agregar eventos y funciones al formulario.
 - Permitir que el programa pueda cargar imágenes URL en el cuadro de imágenes.
