@@ -42,6 +42,7 @@
             botonAnadirImagen.TabIndex = 0;
             botonAnadirImagen.Text = "Añadir imagen";
             botonAnadirImagen.UseVisualStyleBackColor = true;
+            botonAnadirImagen.Click += EventoClickAgregarImagen;
             // 
             // nombreDirectorio
             // 
