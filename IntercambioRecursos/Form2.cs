@@ -16,5 +16,19 @@ namespace IntercambioRecursos
         {
             InitializeComponent();
         }
+
+        private void EventoClickBuscarImagen(object sender, EventArgs e)
+        {
+            // PRIMER EVENTO CREADO DESDE EL FORMULARIO 2.
+
+            // EN INSTANTES...
+        }
+
+        private void EventoClickEnvioRecibido(object sender, EventArgs e)
+        {
+            // SEGUNDO EVENTO CREADO DESDE EL FORMULARIO 2.
+
+            // EN INSTANTES...
+        }
     }
 }

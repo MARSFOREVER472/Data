@@ -42,6 +42,7 @@
             button1.TabIndex = 0;
             button1.Text = "Buscar en el PC";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += EventoClickBuscarImagen;
             // 
             // button2
             // 
@@ -52,6 +53,7 @@
             button2.TabIndex = 1;
             button2.Text = "Enviar";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += EventoClickEnvioRecibido;
             // 
             // textBox1
             // 
