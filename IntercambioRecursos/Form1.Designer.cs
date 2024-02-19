@@ -36,12 +36,13 @@
             // 
             // botonAnadirImagen
             // 
+            botonAnadirImagen.BackColor = Color.Red;
             botonAnadirImagen.Location = new Point(150, 400);
             botonAnadirImagen.Name = "botonAnadirImagen";
             botonAnadirImagen.Size = new Size(150, 34);
             botonAnadirImagen.TabIndex = 0;
             botonAnadirImagen.Text = "Añadir imagen";
-            botonAnadirImagen.UseVisualStyleBackColor = true;
+            botonAnadirImagen.UseVisualStyleBackColor = false;
             botonAnadirImagen.Click += EventoClickAgregarImagen;
             // 
             // nombreDirectorio
@@ -66,6 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 128, 0);
             ClientSize = new Size(478, 450);
             Controls.Add(imagenRecursos);
             Controls.Add(nombreDirectorio);

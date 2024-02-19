@@ -47,6 +47,7 @@
             // button2
             // 
             button2.BackColor = Color.Red;
+            button2.DialogResult = DialogResult.OK;
             button2.Location = new Point(12, 89);
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
