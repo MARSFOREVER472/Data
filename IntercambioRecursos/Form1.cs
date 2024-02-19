@@ -11,7 +11,11 @@ namespace IntercambioRecursos
         {
             // EVENTO CREADO DESDE EL FORMULARIO 1.
 
-            // EN INSTANTES...
+            // VINCULAREMOS AL OTRO FORMULARIO YA CREADO EN EL PROYECTO...
+
+            Form2 nuevoFormulario = new Form2();
+
+            nuevoFormulario.ShowDialog(); // LLAMAREMOS AL MÉTODO JUNTO CON LA VARIABLE PARA MOSTRAR LA LÍNEA DE CÓDIGO YA CREADO ANTERIORMENTE.
         }
     }
 }
