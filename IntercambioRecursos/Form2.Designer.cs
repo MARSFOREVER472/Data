@@ -28,50 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            textBox1 = new TextBox();
+            botonBuscarImagen = new Button();
+            botonEnvio = new Button();
+            nombreArchivoElegido = new TextBox();
             SuspendLayout();
             // 
-            // button1
+            // botonBuscarImagen
             // 
-            button1.BackColor = Color.FromArgb(255, 128, 0);
-            button1.Location = new Point(12, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(174, 34);
-            button1.TabIndex = 0;
-            button1.Text = "Buscar en el PC";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += EventoClickBuscarImagen;
+            botonBuscarImagen.BackColor = Color.FromArgb(255, 128, 0);
+            botonBuscarImagen.Location = new Point(12, 12);
+            botonBuscarImagen.Name = "botonBuscarImagen";
+            botonBuscarImagen.Size = new Size(174, 34);
+            botonBuscarImagen.TabIndex = 0;
+            botonBuscarImagen.Text = "Buscar en el PC";
+            botonBuscarImagen.UseVisualStyleBackColor = false;
+            botonBuscarImagen.Click += EventoClickBuscarImagen;
             // 
-            // button2
+            // botonEnvio
             // 
-            button2.BackColor = Color.Red;
-            button2.DialogResult = DialogResult.OK;
-            button2.Location = new Point(12, 89);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 1;
-            button2.Text = "Enviar";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += EventoClickEnvioRecibido;
+            botonEnvio.BackColor = Color.Red;
+            botonEnvio.DialogResult = DialogResult.OK;
+            botonEnvio.Location = new Point(12, 89);
+            botonEnvio.Name = "botonEnvio";
+            botonEnvio.Size = new Size(112, 34);
+            botonEnvio.TabIndex = 1;
+            botonEnvio.Text = "Enviar";
+            botonEnvio.UseVisualStyleBackColor = false;
+            botonEnvio.Click += EventoClickEnvioRecibido;
             // 
-            // textBox1
+            // nombreArchivoElegido
             // 
-            textBox1.BackColor = Color.Yellow;
-            textBox1.Location = new Point(12, 52);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(400, 31);
-            textBox1.TabIndex = 2;
+            nombreArchivoElegido.BackColor = Color.Yellow;
+            nombreArchivoElegido.Location = new Point(12, 52);
+            nombreArchivoElegido.Name = "nombreArchivoElegido";
+            nombreArchivoElegido.Size = new Size(400, 31);
+            nombreArchivoElegido.TabIndex = 2;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(428, 144);
-            Controls.Add(textBox1);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(nombreArchivoElegido);
+            Controls.Add(botonEnvio);
+            Controls.Add(botonBuscarImagen);
             Name = "Form2";
             Text = "Elegir una imagen";
             ResumeLayout(false);
@@ -80,8 +80,8 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private TextBox textBox1;
+        private Button botonBuscarImagen;
+        private Button botonEnvio;
+        private TextBox nombreArchivoElegido;
     }
 }
