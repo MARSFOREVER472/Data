@@ -21,7 +21,20 @@ namespace IntercambioRecursos
         {
             // PRIMER EVENTO CREADO DESDE EL FORMULARIO 2.
 
-            // EN INSTANTES...
+            // AQUÍ SE ABRE UN NUEVO ARCHIVO DE TEXTO ESCRITO A MODO DE DIÁLOGO...
+
+            OpenFileDialog archivoDialogo = new OpenFileDialog();
+
+            // LAS EXTENSIONES DE UN ARCHIVO TIENEN QUE SER VÁLIDOS ACORDE A LOS FORMATOS COMPATIBLES QUE SUBES MEDIANTE UN DIÁLOGO DEL ARCHIVO ESCRITO...
+
+            archivoDialogo.Filter = " Sólo se permiten imágenes mediante extensiones disponibles aquí | *.jpg; *.jpeg; *.png; *.gif";
+
+            // SI EL ARCHIVO SUBIDO CORRESPONDE AL FORMATO DEL MISMO ARCHIVO QUE ESCRIBISTE, ENTONCES SE MUESTRA UN TEXTO DESCRIPTIVO DEBAJO DE LA IMAGEN MÁS SU EXTENSIÓN APROPIADA.
+
+            if (archivoDialogo.ShowDialog() == DialogResult.OK)
+            {
+                nombreArchivoElegido.Text = Path.GetFullPath(archivoDialogo.FileName);
+            }
         }
 
         private void EventoClickEnvioRecibido(object sender, EventArgs e)
