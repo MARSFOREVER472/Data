@@ -49,7 +49,7 @@
             // 
             nombreDirectorio.AutoSize = true;
             nombreDirectorio.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
-            nombreDirectorio.Location = new Point(205, 365);
+            nombreDirectorio.Location = new Point(70, 365);
             nombreDirectorio.Name = "nombreDirectorio";
             nombreDirectorio.Size = new Size(52, 21);
             nombreDirectorio.TabIndex = 1;

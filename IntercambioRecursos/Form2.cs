@@ -21,7 +21,7 @@ namespace IntercambioRecursos
         {
             // PRIMER EVENTO CREADO DESDE EL FORMULARIO 2.
 
-            // AQUÍ SE ABRE UN NUEVO ARCHIVO DE TEXTO ESCRITO A MODO DE DIÁLOGO...
+            // AQUÍ SE ABRE UN NUEVO ARCHIVO DE TEXTO ESCRITO A MODO DE DIÁLOGO, MEDIANTE UN EXPLORADOR DE ARCHIVOS...
 
             OpenFileDialog archivoDialogo = new OpenFileDialog();
 
