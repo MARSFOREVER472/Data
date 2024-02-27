@@ -41,7 +41,9 @@ namespace IntercambioRecursos
         {
             // SEGUNDO EVENTO CREADO DESDE EL FORMULARIO 2.
 
-            // EN INSTANTES...
+            // CON ESTE EVENTO SOLAMENTE SE PUEDE EJECUTAR UNA SOLA LÍNEA DE CÓDIGO AL ELEGIR UN ARCHIVO EXISTENTE A TRAVÉS DE UNA CASILLA DE NOMBRE DEL DIRECTORIO ELEGIDO...
+
+            Form1.nombreArchivo = nombreArchivoElegido.Text;
         }
     }
 }
