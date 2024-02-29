@@ -60,6 +60,7 @@
             imagenRecursos.Location = new Point(10, 10);
             imagenRecursos.Name = "imagenRecursos";
             imagenRecursos.Size = new Size(456, 347);
+            imagenRecursos.SizeMode = PictureBoxSizeMode.CenterImage;
             imagenRecursos.TabIndex = 2;
             imagenRecursos.TabStop = false;
             // 
